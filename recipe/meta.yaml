@@ -44,5 +44,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - jezdez
     - jaimergp
     - soapy1
