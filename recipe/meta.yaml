@@ -1,5 +1,4 @@
-{% set version = "0.1.1" %}
-{% set python_min = "3.9" %}
+{% set version = "0.2.0" %}
 
 package:
   name: conda-self
@@ -7,7 +6,7 @@ package:
 
 source:
   url: https://github.com/conda-incubator/conda-self/archive/{{ version }}.tar.gz
-  sha256: 79133aa60a43eec1783aeef63abe7df3ac17c1dfed95398bf0de2315b7d735cf
+  sha256: 684f080fbc9a6973c08a0deb96f3814cfe31517305e00ee989e4c39de37318ed
 
 build:
   number: 0
@@ -25,7 +24,7 @@ requirements:
     - hatch-vcs >=0.2.0
   run:
     - python >={{ python_min }}
-    - conda >=23.9.0
+    - conda >=26.1.1
 
 test:
   requires:
