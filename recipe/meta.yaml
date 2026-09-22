@@ -1,4 +1,4 @@
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 
 package:
   name: conda-self
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/conda-incubator/conda-self/archive/{{ version }}.tar.gz
-  sha256: 519e5e17505e8022a7a3c1d5de3b57a1780c29e80c2c0b203a16d8820725bc35
+  sha256: 59ac0446537c94fc16177007ee4593dbd713e04432ca4a191badb799dfb26068
 
 build:
   number: 0
